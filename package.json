@@ -1,0 +1,30 @@
+{
+  "name": "goit-js-hw-10-food-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-08-food-service/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skrypkasv/goit-js-hw-10-food-service.git"
+  },
+  "author": "Sergiy Skrypka <skrypkasv@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skrypkasv/goit-js-hw-10-food-service/issues"
+  },
+  "homepage": "https://github.com/skrypkasv/goit-js-hw-10-food-service#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "sass": "^1.27.0"
+  }
+}
