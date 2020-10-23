@@ -13,4 +13,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./close-modal":"vwdI","./arrows-keydown":"gYcX"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");var e=s(require("./js/data.js")),r=require("./js/create-markup"),a=require("./js/open-modal"),l=require("./js/close-modal");function s(e){return e&&e.__esModule?e:{default:e}}r.gallery.insertAdjacentHTML("beforeend",(0,r.createGalleryMarkup)(e.default)),r.gallery.addEventListener("click",a.openModal),l.btnCloseModal.addEventListener("click",l.closeModal),l.modalBackdrop.addEventListener("click",l.closeModal);
 },{"./sass/main.scss":"clu1","./js/data.js":"QHdL","./js/create-markup":"oWe0","./js/open-modal":"n7vg","./js/close-modal":"vwdI"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-08-food-service/src.5408b0dd.js.map
+//# sourceMappingURL=/goit-js-hw-10-food-service/src.1b0697e3.js.map
